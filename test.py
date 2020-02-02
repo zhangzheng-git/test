@@ -67,7 +67,7 @@ for i in range(6):
     for j in range(i):
         print("*",end="")
     print()
-
+#九九乘法表
 for i in range(1,10):
     for j in range(1,i+1):
         # print(j,end="*")
@@ -75,3 +75,4 @@ for i in range(1,10):
         # print(i*j,end=" ")
         print(str(j)+"*"+str(i)+"="+str(i*j),end=" ")
     print()
+#循环
