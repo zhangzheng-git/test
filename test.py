@@ -75,4 +75,9 @@ for i in range(1,10):
         # print(i*j,end=" ")
         print(str(j)+"*"+str(i)+"="+str(i*j),end=" ")
     print()
-#循环
+# 函数
+def add(a,b):
+    """求和"""
+    return (a+b)
+
+print(add(9,8))
