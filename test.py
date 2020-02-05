@@ -89,3 +89,26 @@ def pr(a,b,c):
         print()
 
 pr(7,7,"*")
+#函数参数,可变参数
+def add(*b):
+    sum = 0
+    for i in b:
+        sum += i
+    return  sum
+print(add(1,2,3,4,6))
+
+#可改变对象与不可改变对象
+def printf(b):
+    b=9
+    print(b)
+a=10
+printf(a)
+print(a)
+
+def printflist(b):
+    # b=[1,3,2,4] 只要有等号就产生新对象 里变，外不变
+    b.append(3) #里外都变
+    print(b)
+a=[0,9]
+printflist(a)
+print(a)
