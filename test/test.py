@@ -112,3 +112,15 @@ def printflist(b):
 a=[0,9]
 printflist(a)
 print(a)
+
+#全局变量  默认只读 函数内要修改加关键字 global
+zhang=4
+def qure():
+    global zhang
+    zhang=5
+    print(zhang)
+qure()
+print(zhang)
+
+sum = lambda a,b:a+b
+print(sum(1,2))
