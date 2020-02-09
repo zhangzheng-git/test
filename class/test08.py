@@ -15,7 +15,7 @@ class Person:
     name=""#类变量被所有该类对象共有，一般不用类变量，全部放在初始化函数中的实例变量
     age=0
     sex="男"
-    def __init__(self,name,age,sex):
+    def __init__(self,name,age,sex):#self永远指向的是实例对象
         self.name=name #实例变量属于每一个单独的实例对象
         self.age=age
         self.sex=sex #若实例变量没有该值就使用类变量中的
