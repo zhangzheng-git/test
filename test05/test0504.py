@@ -3,7 +3,7 @@ print(__name__)
 import os,shutil
 
 if __name__=='__main__':
-    path="E:/PythonProject/test/test05/1.log"
+    path ="E:/PythonProject/test/test05/1.log"
     Dire, fname = os.path.split(path) #fname 无用返回值可以用 _ 代替
     print(Dire)
     if not os.path.exists(Dire):
