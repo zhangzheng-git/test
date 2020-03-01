@@ -73,8 +73,7 @@ class Person(object):
         self.age=age
 
     def __str__(self):
-        print("name:"+self.name+"    age:"+str(self.age))
+        return "name:"+self.name+"    age:"+str(self.age)
 
 person=Person("zhzng",12)
 print(person)#不重载str的话打印的是内存地址
-

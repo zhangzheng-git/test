@@ -23,3 +23,13 @@ jianfa(1,2,4)
 
 from utils.tool.utils import jianfa as jf
 jf(1,2,4)
+
+
+def fuc(var):
+    if not var:
+        print(var)
+    else:
+        print("var{}".format(var))
+
+if __name__ == '__main__':
+    fuc([1])
