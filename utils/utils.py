@@ -12,3 +12,6 @@ def chufa():
     
 def kkk():
     print("kk")
+
+def yyyy():
+    print("YY")
