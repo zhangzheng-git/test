@@ -12,3 +12,5 @@ def chengfa(*a):
     for i in a:
         sum *=i
     return sum
+def chufa():
+    print("chu fa")
