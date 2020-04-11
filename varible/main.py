@@ -40,3 +40,6 @@ def addab(a,b):
     return a+b
 def order(x,y):
     return x*y
+
+def pr():
+    print("this is gg")
