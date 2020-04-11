@@ -14,3 +14,6 @@ def chengfa(*a):
     return sum
 def chufa():
     print("chu fa")
+    
+def kkk():
+    print("kk")
